@@ -88,7 +88,7 @@ cat > $CONF_FILE <<EOF
                             (tool-bar-lines . 0)
                             (menu-bar-lines . 0)
                             (fullscreen . nil)))
-(blink-cursor-mode -1)
+(blink-cursor-mode 1)
 (require 'helm-config)
 (helm-mode 1)
 (define-key global-map [remap find-file] 'helm-find-files)
